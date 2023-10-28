@@ -8,9 +8,9 @@ try {
   console.log(e)
 }
 const total = stop()
-console.log(total) // 4 promises created
+console.log(total) // 2 promises created
 
-async function doSomethig() {
+function doSomethig() {
   return doErrorThrow()
 }
 async function doErrorThrow() {
